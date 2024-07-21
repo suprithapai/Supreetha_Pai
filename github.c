@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
+    int n,b, sum;
 
     // Asking the user to enter two integers
     printf("Enter two integers: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%d %d", &n, &b);
 
     // Calculating the sum
-    sum = num1 + num2;
+    sum = n+ b;
 
     // Displaying the result
-    printf("Sum of %d and %d is: %d\n", num1, num2, sum);
+    printf("Sum of %d and %d is: %d\n", n, b, sum);
 
     return 0;
 }
