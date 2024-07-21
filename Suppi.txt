@@ -1,0 +1,7 @@
+program -1
+git clone
+cd (file name)
+notepad f1.py
+git add .
+git commit -m " "
+git push
